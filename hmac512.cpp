@@ -1,14 +1,3 @@
-// CEG 6750 sample code
-/**
-Course Number- CEG 4750/6750      
-Course Title- Information Security
-Name - Mariamwit Filfile 
-UID - U00865436
-Prof.’s  Name- Meilin Liu 
-Date- 4/10/2024
-Project Name - Programming Project 3 
-*/
-
 #include <iostream>
 #include <fstream>
 #include <string>
