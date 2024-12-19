@@ -12,7 +12,7 @@ the output file. The program takes three arguments: an input file name, an outpu
 <h2>Languages and Utilities Used</h2>
 
 - <b>SHA-512 using the library functions provided by cryptopp libraries</b> 
-- <b>Cryptography</b>
+- <b>Cryptography C++</b>
 - <b>openssl</b>
 - <b> CMAC (Cipher-based Message Authentication Code) using AES</b>
 
