@@ -24,7 +24,7 @@ the output file. The program takes three arguments: an input file name, an outpu
 
 <p align="center">
 User1 types a message and sends it: <br/>
-<img src="[https://imgur.com/A4EqdnD" height="50%" width="50%" alt="Encrypted messaging app steps"/>
+<img src="https://imgur.com/A4EqdnD.png" height="50%" width="50%" alt="Encrypted messaging app steps"/>
 <br />
 <br />
 The message is encrypted using User2's public key:  <br/>
