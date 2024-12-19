@@ -1,27 +1,30 @@
 # HMAC
-<h1> Encrypted Messaging </h1>
+<h1> HMAC (Keyed-hash Message Authentication Code) using SHA-512  </h1>
 
 
 
 <h2>Description</h2>
-Project consists of a simple encrypted messaging application that allows users to communicate securely. It has end-to-end encryption to make sure that messages can only be read by the reciever. The application includes server and client with a graphical user interface (GUI) to send and recieve messages.
+ This project implements HMAC (Keyed-hash Message Authentication Code) using SHA-512 as the building block. It then computes the  CMAC (Cipher-based Message Authentication Code) using AES with 128 bits of the input message using the library functions provided by cryptopp. After computing the CMAC of an input message M, it is printed on the screen in hexadecimal format,  the CMAC output is also stored in 
+the output file. The program takes three arguments: an input file name, an output CMAC file, and a key.  
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
+- <b>SHA-512 using the library functions provided by cryptopp libraries</b> 
 - <b>Cryptography</b>
+- <b>openssl</b>
+- <b> CMAC (Cipher-based Message Authentication Code) using AES</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11</b> 
+- <b>Putty</b> 
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
 User1 types a message and sends it: <br/>
-<img src="https://i.imgur.com/o9zkfJ2.png" height="80%" width="80%" alt="Encrypted messaging app steps"/>
+<img src="[https://imgur.com/A4EqdnD" height="50%" width="50%" alt="Encrypted messaging app steps"/>
 <br />
 <br />
 The message is encrypted using User2's public key:  <br/>
