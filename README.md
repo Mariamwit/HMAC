@@ -45,9 +45,9 @@ The  CMAC (Cipher-based Message Authentication Code) is  computed using AES with
 <br />
 <br />
 the CMAC of an input message M is computed and printed on the screen in hexadecimal format:  <br/>
-<img src="https://imgur.com/nNNpmPX.png" height="50%" width="50%" alt="steps"/>
-<img src="https://imgur.com/WMO9d03.png" height="50%" width="50%" alt="steps"/>
-<img src="https://imgur.com/VJJCEp7.png" height="50%" width="50%" alt="steps"/>
+<img src="https://imgur.com/nNNpmPX.png" height="80%" width="80%" alt="steps"/>
+<img src="https://imgur.com/WMO9d03.png" height="80%" width="80%" alt="steps"/>
+<img src="https://imgur.com/VJJCEp7.png" height="80%" width="80%" alt="steps"/>
 <br />
 <br />
 
