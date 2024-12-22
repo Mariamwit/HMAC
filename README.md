@@ -27,11 +27,11 @@ SHA-512 using the library functions provided by cryptopp libraries: <br/>
 <img src="https://imgur.com/A4EqdnD.png" height="50%" width="50%" alt="steps"/>
 <br />
 <br />
-print the HMAC on the screen in hexadecimal format, also store the HMAC output in the output file:  <br/>
+Print the HMAC on the screen in hexadecimal format, also store the HMAC output in the output file:  <br/>
 <img src="https://imgur.com/ageIZvr.png" height="50%" width="50%" alt="steps"/>
 <br />
 <br />
-the HMAC of the input messages is computed using openssl.the output HMAC computed is compared  with the HMAC computed 
+The HMAC of the input messages is computed using openssl.the output HMAC computed is compared  with the HMAC computed 
 using openssl for the same file with the same key to see if they are the same. ( HMAC of the input message is  computed  using diff for different files)
 )  : <br/>
 <img src="https://imgur.com/Q6pmSGK.png" height="80%" width="80%" alt="steps"/>
