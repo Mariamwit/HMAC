@@ -32,7 +32,7 @@ print the HMAC on the screen in hexadecimal format, also store the HMAC output i
 <br />
 <br />
 the HMAC of the input messages is computed using openssl.the output HMAC computed is compared  with the HMAC computed 
-using openssl for the same file with the same key to see if they are the same. ( the HMAC of the input message is  computed  using diff FOR different files)
+using openssl for the same file with the same key to see if they are the same. ( HMAC of the input message is  computed  using diff for different files)
 )  : <br/>
 <img src="https://imgur.com/Q6pmSGK.png" height="80%" width="80%" alt="steps"/>
  <img src="https://imgur.com/lFb8Slk.png" height="80%" width="80%" alt="steps"/>
@@ -44,7 +44,7 @@ The  CMAC (Cipher-based Message Authentication Code) is  computed using AES with
  
 <br />
 <br />
-the CMAC of an input message M is computed and printed on the screen in hexadecimal format:  <br/>
+The CMAC of an input message M is computed and printed on the screen in hexadecimal format:  <br/>
 <img src="https://imgur.com/nNNpmPX.png" height="80%" width="80%" alt="steps"/>
 <img src="https://imgur.com/WMO9d03.png" height="80%" width="80%" alt="steps"/>
 <img src="https://imgur.com/VJJCEp7.png" height="80%" width="80%" alt="steps"/>
